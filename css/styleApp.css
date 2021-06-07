@@ -1,0 +1,294 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+a.navbar-brand {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a.navbar-brand span {
+  color: red;
+}
+
+div#navbarNavDropdown ul li a {
+  color: rgb(26, 33, 149) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+}
+
+button.btn.btn-primary {
+  width: 134px !important;
+  height: 46px !important;
+  font-size: 13px !important;
+  background: rgb(9, 53, 255) !important;
+  border-radius: 24px !important;
+  margin-left: 10px !important;
+  margin-top: 0px !important;
+}
+
+banner.masthead {
+  margin-bottom: 50px;
+  background: center center / cover no-repeat scroll rgb(134, 142, 150);
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 670px;
+}
+
+banner.masthead .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 16, 128);
+  opacity: 0.5;
+}
+
+.banner-tutor {
+  margin-top: 176px;
+}
+
+.banner-tutor h2 {
+  font-size: 57px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+.banner-tutor p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-top: 61px;
+  font-family: -webkit-pictograph;
+  font-weight: 600;
+}
+
+.search_tutor {
+  width: 100%;
+  height: 75%;
+  background: rgba(50, 73, 124, 0.47);
+  margin: 169px 0px 0px;
+  border-radius: 10px;
+}
+
+.tutor_form {
+  padding: 30px;
+}
+
+select#tName,
+select#medium,
+select#subject,
+select#area,
+select#class,
+select#gender,
+#yName,
+#yRegistration,
+#mail,
+#phone {
+  width: 226px;
+  height: 40px;
+  text-align: center;
+  border-radius: 24px;
+  border: none;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.search_submit {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.search_submit button {
+  padding: 10px 180px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(255, 104, 5);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+thead {
+  background: rgb(255, 89, 13);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+td#idB {
+  background: rgb(181, 255, 0);
+}
+
+td#nameB {
+  background: rgb(221, 221, 221);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+td#regB,
+#mailB,
+#clsB,
+#subB,
+#genB {
+  background: rgba(120, 110, 120, 0.467);
+}
+
+td#PhoneB,
+#areaB,
+#mediB,
+#teaB {
+  background: rgb(221, 221, 221);
+}
+
+.head_title {
+  background: linear-gradient(354deg, rgb(68, 60, 199) 7%, rgba(0, 136, 251, 0.97) 50%, rgb(0, 22, 255) 100%);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.head_title h1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 11px 0px;
+  font-family: sans-serif;
+}
+
+.our_offer_txt {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.our_offer_txt h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(0, 27, 97);
+}
+
+.our_offer_txt h1 span {
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 6px solid rgb(0, 58, 209);
+}
+
+.our_offer img {
+  width: 40% !important;
+  height: 50% !important;
+}
+
+.our_offer {
+  text-align: center;
+}
+
+.our_offer h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(0, 27, 97);
+  margin: 21px 0px;
+}
+
+.our_offer p {
+  color: rgb(128, 128, 128);
+  padding: 0px 30px;
+}
+
+.our_offer_middle {
+  margin-bottom: 10px;
+}
+
+.our_offer img:hover {
+  filter: grayscale(1);
+}
+
+.our_offer img {
+  transition: all 0.3s ease 0s;
+}
+
+.our_offer_bottom {
+  margin-bottom: 80px;
+}
+
+.parent_video {
+  text-align: center;
+}
+
+.our_offer_bottom {
+  margin-bottom: 80px;
+}
+
+.parent_video_back {
+  background: rgb(247, 242, 221);
+}
+
+.parent_title {
+  text-align: center;
+}
+
+.video_content_wrapper {
+  position: relative;
+}
+
+.parent_videos {
+  position: relative;
+  z-index: 6;
+}
+
+.parent_video_back {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  width: 100%;
+}
+
+.parent_about_us {
+  height: 537px;
+}
+
+.parent_title {
+  padding-top: 228px;
+}
+
+.parent_title h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: rgb(0, 27, 97);
+  text-transform: capitalize;
+  font-family: Poppins;
+}
+
+.parent_title p {
+  color: rgba(129, 123, 123, 0.867);
+  margin-top: 30px;
+}
+
+button#aboutMeBtn {
+  background: #001B61;
+  padding: 15px 41px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.parent_title h2 span {
+  font-weight: 500;
+  border-bottom: 8px solid #3862ff;
+  border-radius: 10px;
+}
+
+
+
+
+
+

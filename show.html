@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/bootstrap.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/responsive.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/styleApp.css')}}">
+  <title>Admin data Show </title>
+</head>
+<body>
+  <div class="admin_Board">
+    <div class="admin_board_head">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="head_title">
+              <h1>This Is Our Registered Members</h1>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12">
+            {% with msg = get_flashed_messages() %}
+            {% if msg %}
+            {%for m in msg %}
+            <h2>{{m}}</h2>
+            {%endfor%}
+            {% endif%}
+            {%endwith %}
+            
+            <table border="1px ">
+              <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Registration No</th>
+                <th>Phone</th>
+                <th>Mail</th>
+                <th>Teacher</th>
+                <th>Class</th>
+                <th>Medium</th>
+                <th>Subject</th>
+                <th>Area</th>
+                <th>Gender</th>
+              </thead>
+              <tbody>
+                {% for i in data %}
+                <tr>
+                  <td id="idB">{{i.id}}</td>
+                  <td id="nameB">{{i.name}}</td>
+                  <td id="regB">{{i.registration}}</td>
+                  <td id="PhoneB">{{i.phone}}</td>
+                  <td id="mailB">{{i.mail}}</td>
+                  <td id="teaB">{{i.teacher}}</td>
+                  <td id="clsB">{{i.cls}}</td>
+                  <td id="mediB">{{i.medium}}</td>
+                  <td id="subB">{{i.subject}}</td>
+                  <td id="areaB">{{i.area}}</td>
+                  <td id="genB">{{i.gender}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="{{ url_for('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>
